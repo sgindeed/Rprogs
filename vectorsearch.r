@@ -1,0 +1,7 @@
+x = c(10, 20, 30, 25, 9, 26)
+print("Original Vectors:")
+print(x)
+print("Test whether above vector contains 25:")
+print(is.element(25, x))
+print("Test whether above vector contains 56:")
+print(is.element(56, x))

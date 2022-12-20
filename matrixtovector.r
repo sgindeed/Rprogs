@@ -1,0 +1,10 @@
+my_matrix <- matrix(1:20, nrow = 5)
+my_matrix
+#convert matrix to vector (sorted by columns) using c()
+new_vector <- c(my_matrix)
+#convert matrix to vector (sorted by rows) using c()
+new_vector <- c(t(my_matrix))
+#convert matrix to vector (sorted by columns) using as.vector()
+new_vector <- as.vector(my_matrix)
+#convert matrix to vector (sorted by rows) using as.vector()
+new_vector <- as.vector(t(my_matrix))
